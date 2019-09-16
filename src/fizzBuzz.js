@@ -2,6 +2,9 @@ function FizzBuzz() {
 }
 
 FizzBuzz.prototype.checkNumber = function (number) {
-  return 1;
+  if (number === 3){
+    return "Fizz";
+  }else{
+    return number
+  }
 };
-
